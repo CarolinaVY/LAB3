@@ -59,12 +59,13 @@ void Error_Handler(void);
 /* USER CODE END EFP */
 
 /* Private defines -----------------------------------------------------------*/
+#define pulsador_Pin GPIO_PIN_13
+#define pulsador_GPIO_Port GPIOC
+#define pulsador_EXTI_IRQn EXTI15_10_IRQn
 #define IN1_Pin GPIO_PIN_1
 #define IN1_GPIO_Port GPIOA
 #define IN2_Pin GPIO_PIN_2
 #define IN2_GPIO_Port GPIOA
-#define pulsador_Pin GPIO_PIN_7
-#define pulsador_GPIO_Port GPIOA
 #define LED1_Pin GPIO_PIN_10
 #define LED1_GPIO_Port GPIOB
 #define LED5_Pin GPIO_PIN_12

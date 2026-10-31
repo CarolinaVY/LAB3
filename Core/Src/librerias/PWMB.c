@@ -11,12 +11,12 @@ float escala=5667;//  define la escala a trabajar el pwm
 //float escala=10000;//  define la escala a trabajar el pwm
 
 //incluir los timer usados
-extern TIM_HandleTypeDef htim1;
+extern TIM_HandleTypeDef htim3;
 
 //configurar cvada salida pwm usada
 //PWMS PWM1 = {&htim1, &(TIM1->CCR3),TIM_CHANNEL_3};
-PWMS PWM2 = {&htim1, &(TIM1->CCR2),TIM_CHANNEL_2};
-//PWMS PWM3 = {&htim3, &(TIM3->CCR3),TIM_CHANNEL_3};
+//PWMS PWM2 = {&htim1, &(TIM1->CCR2),TIM_CHANNEL_2};
+PWMS PWM3 = {&htim3, &(TIM3->CCR3),TIM_CHANNEL_3};
 //PWMS PWM4 = {&htim3, &(TIM3->CCR4),TIM_CHANNEL_4};
 
 
