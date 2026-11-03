@@ -59,9 +59,6 @@ void Error_Handler(void);
 /* USER CODE END EFP */
 
 /* Private defines -----------------------------------------------------------*/
-#define pulsador_Pin GPIO_PIN_13
-#define pulsador_GPIO_Port GPIOC
-#define pulsador_EXTI_IRQn EXTI15_10_IRQn
 #define IN1_Pin GPIO_PIN_1
 #define IN1_GPIO_Port GPIOA
 #define IN2_Pin GPIO_PIN_2
@@ -76,6 +73,9 @@ void Error_Handler(void);
 #define LED3_GPIO_Port GPIOB
 #define LED2_Pin GPIO_PIN_15
 #define LED2_GPIO_Port GPIOB
+#define pulsador_Pin GPIO_PIN_12
+#define pulsador_GPIO_Port GPIOA
+#define pulsador_EXTI_IRQn EXTI15_10_IRQn
 
 /* USER CODE BEGIN Private defines */
 
